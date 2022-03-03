@@ -1,0 +1,33 @@
+@import '../../../assets/scss/Consts.scss';
+
+header {
+    width: 100%;
+    height: 208px;
+    background-image: url(../../../../public/img/headerFondo.svg);
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin-bottom: 35px;
+
+    .gallery{
+        font-family: $font;
+        color:$color-title;
+        position: absolute;
+        left: 70px;
+        top: 180px;
+        font-weight: $font-bold;
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: 2px;
+    }
+
+}
+@media (max-width: 375px){
+    .gallery{
+        left: 10px !important;
+        top: 200px !important;
+        font-size:35px !important;
+        line-height:70px;
+    }
+}

@@ -1,0 +1,13 @@
+@import '../../../assets/scss/Consts.scss';
+
+.card-container{
+    
+    //max-width: 1280px;
+    .load-more{
+        font-size: 20px;
+        color:#C23F81;
+        font-weight: $font-regular;
+        font-family: $font;
+        margin: 45px 0 90px 0;
+    }
+}

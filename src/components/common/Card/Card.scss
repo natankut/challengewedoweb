@@ -1,0 +1,56 @@
+@import '../../../assets/scss/Consts.scss';
+section{
+    margin: 0 70px 0 70px;
+
+    .card{
+                 
+        border: 0;
+        border-radius: 0;
+        .imagen{
+            height: 280px;
+            width: 100%;
+            background-image: url(../../../../public/img/Image.jpg);
+            border-radius: 10px 10px 0 0;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+            
+        }
+        .card-body{
+            background-color:$color-grey-fondo;
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 11px;
+            box-sizing:border-box;
+            border-radius: 0 0 10px 10px;
+    
+            img {
+                height: 70px;
+            }
+    
+            .cardFooter{
+            font-family: $font;
+    
+                h3{
+                    font-weight: $font-regular;
+                    color: $color-name;
+                    font-size: 16px;
+                    margin-bottom: 4px;
+                }
+                span{
+                    font-weight: $font-light;
+                    color: $color-hash;
+                    font-size: 16px;
+                    line-height: 19px;
+                    margin-bottom: 15px;
+                }
+    
+            }
+            
+            
+        }
+      
+    }
+}
+

@@ -1,0 +1,24 @@
+@import '../../../assets/scss/Consts.scss';
+footer{
+    height: 55px;
+    background-color:#313131; 
+    border-top: 6px solid #C23F81;
+    .logoFooter{
+        height: 28px;
+        width: 145px;
+        background-image: url(../../../../public/img/logoFoot.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover; 
+        margin-top: 0.25rem;
+    }
+    p{
+        color: $color-title;
+        display: flex;
+        align-items: center;
+        margin:0;
+        font-size:19px;
+        
+    }
+}
+

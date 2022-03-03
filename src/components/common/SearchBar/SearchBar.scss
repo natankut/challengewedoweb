@@ -1,0 +1,44 @@
+@import '../../../assets/scss/Consts.scss';
+.searchBar{
+    margin: 0 0px 40px 0; 
+    .input-group{
+
+        .form-control{
+            border:none;
+            background-color: #ECECEC; 
+            border-top-left-radius:10px !important;
+            border-bottom-left-radius: 10px !important;            
+        }
+        .input-group-text{
+            border-radius: 10px;
+        }    
+        
+        .searchBy{
+            color: #888888;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            margin: 2px;
+            font-family: $font;
+            line-height: 23px;
+            letter-spacing: 0.01em;
+            font-weight: $font-middle;
+        }
+    } 
+   
+}
+@media (max-width: 375px){
+    .inputSearch{
+        width: auto !important;
+        padding: 0;
+        border: none;
+        height: 47px;
+    
+    .searchBy{
+        display: none !important;
+    }
+}
+}
+
+
+  

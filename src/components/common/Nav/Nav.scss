@@ -1,0 +1,34 @@
+@import '../../../assets/scss/Consts.scss';
+nav{
+    padding: 0 70px 0 70px;
+    height: 68px;
+    .navbar-toggler{
+        outline: none;
+        width: 30px;
+        height: 26px;
+        background-image: url(../../../img-nav/Hamburguer2.svg);
+        box-shadow: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        
+        
+    }
+    .btnLogin{
+        font-family: $font;
+        width: 80px;
+        border-radius: 8px;
+        color:$color-title;
+        font-weight: $font-regular;
+        background-color: #C23F81;
+        border: 0;
+        padding: 10px 17px 9px 17px;
+    }
+}
+
+@media (max-width: 375px){
+    nav{
+        padding: 0 0px 0 0px;
+        height: 68px;
+    }
+}
